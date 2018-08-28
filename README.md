@@ -1,3 +1,3 @@
 # Bricks
 
-First Game with Unity. Strawstack
+First Game with Unity. :)
