@@ -24,15 +24,16 @@ public class SceneManagerClass : MonoBehaviour {
             globalScore += 10;
             txtscore.text = (globalScore)+"";
 
-            if (globalScore == 50)
+            if (globalScore == 100 || globalScore == 360)
             {
                 SceneManager.LoadScene("Scenes/Level2");
 
             }
-            else if (globalScore == 100)
+            else if (globalScore == 230 || globalScore == 480)
             {
                 SceneManager.LoadScene("Scenes/Level3");
             }
+            
         }
     }
 }
